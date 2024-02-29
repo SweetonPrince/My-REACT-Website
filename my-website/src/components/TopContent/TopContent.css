@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Protest+Revolution&display=swap');
+
+.topContent{
+    color: white;
+    position: relative;
+}
+.topContent__container{
+    position: absolute;
+    top: 280px;
+    right: 150px;
+}
+.topContent__container > p{
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-right: 20px;
+}
+.topContent__container > a >button{
+    margin-top: 30px;
+    margin-left: 5px;
+    text-align: left;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}   
+.topContent__container > h1{
+    font-size: 50px;
+}
+.topContent__downloadbutton{
+    color: white;
+    background-color: red;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.topContent__downloadbutton:hover{
+    color: red;
+    background-color: white;
+    font-weight: 500;
+}
+.topContent__workbutton{
+    color: white;
+    border: 1px solid white !important;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 9px 45px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.topContent__workbutton:hover{
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}

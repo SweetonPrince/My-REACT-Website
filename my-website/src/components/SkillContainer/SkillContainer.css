@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Protest+Revolution&display=swap');
+
+.skillContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+}
+.skillContainer__text{
+    color: white;
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+.skillContainer__text > h2{
+    font-size: 30px;
+}
+.skillContainer__image{
+  flex: 0.4;
+  text-align: center;
+  margin-right: 100px;
+}
+.skillContainer__image > img{
+    width: 500px;
+    border-radius: 1px;
+    object-fit: contain;
+}
+.skillContainer__skillSet > h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.skillContainer__slider1 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: red;
+}
+.skillContainer__slider2 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: blueviolet;
+}
+.skillContainer__slider3 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: yellow;
+}
+.skillContainer__slider4 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: green;
+}
+.skillContainer__slider5 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: violet;
+}
+.skillContainer__slider6 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: tomato;
+}
